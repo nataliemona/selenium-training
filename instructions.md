@@ -311,3 +311,4 @@ Shared `course-admin-tools/test/selenium` folder?
 
 Shared config `config.json` and custom functions `commands.js`?
 
+Please suggest or contribute new functions! Driver functions are defined in `classes/Driver.js` in the `harvard-edtech/dce-selenium` repo.
