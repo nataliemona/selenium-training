@@ -247,6 +247,7 @@ describeS('Test google', function () {
   itS('Visits google', async function (driver) {
     await driver.visit('https://www.google.com');
   });
+});
 ```
 
 ## Run your test
@@ -303,6 +304,7 @@ In `example.js`
   		itS('Navigates in google search results', async function (driver) {
     		await driver.searchFor('cats');
     		// more testing code
+    	});
  	 });
  	 
 ## CACCL Course Admin Tools
