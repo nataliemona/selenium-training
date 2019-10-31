@@ -214,7 +214,7 @@ Many ways to wait:
 * Use `Date.now()` to generate a unique identifier for something you create during your test. This makes it easier to check if your test generated the item.
 * Try to get your test working in one browser first.
 * Use the snapshots (automatically generated and placed in `test/selenium/snapshots/`).
-* Insert `.only` after `desribeS` or `itS` to test one test at a time.
+* Insert `.only` after `describeS` or `itS` to test one test at a time.
 * Log `await driver.getElementInnerHTML(await driver.parentOf(element));`
 
 # Practice
@@ -225,7 +225,7 @@ Many ways to wait:
 
 2. Create a folder for selenium training and cd into it.
 
-3. Create a NPM project: `npm init`, use the defaults for everything
+3. Create a NPM project: `npm init`, use the defaults for everything (when prompted to enter a package name, etc)
 
 4. Install dce-selenium: `npm install dce-selenium`
 
