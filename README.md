@@ -227,7 +227,7 @@ Many ways to wait:
 
 3. Create a NPM project: `npm init`, use the defaults for everything (when prompted to enter a package name, etc)
 
-4. Install dce-selenium: `npm install dce-selenium`
+4. Install dce-selenium: `npm install dce-selenium --save-dev`
 
 5. Add dce-selenium to your NPM project: `npm init dce-selenium`
 
