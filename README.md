@@ -17,7 +17,7 @@ selenium-webdriver documentation
 * If the functionality you need is not possible with the dce-selenium functions, you can also use the JavaScript selenium-webdriver.
 * If you find you are needing to do something frequently using selenium-webdriver, you should contribute a wrapper function to dce-selenium!
 
-CSS Selector reference 
+CSS Selector reference
 [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
 
 
@@ -77,10 +77,10 @@ Many of dce-selenium's driver functions use CSS selectors to identify HTML eleme
 
 | Selector  | Example  | Description |
 |-----------|----------|-------------|
-| element | 'table'  | Selects all `button` elements.|   
+| element | 'button'  | Selects all `button` elements.|   
 | .class |  '.results' | Elements with class `results`, `table.results`for table with class results. |  
-| #id |  'button#name' | Selects `<button id=name/>` | 
-| [attribute=value] | 'div[role="navigation"]'  | Selects `<div role="navigation"/>` | 
+| #id |  'button#name' | Selects `<button id=name/>` |
+| [attribute=value] | 'div[role="navigation"]'  | Selects `<div role="navigation"/>` |
 
 * Multiple selectors can be chained together in the format `element.class1.class2#id[key="value"]`
 * More syntax for CSS selectors: [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp)
@@ -200,11 +200,11 @@ Many ways to wait:
 		// Not recommended to wait for arbitrary units of time
 		// But sometimes this is useful for debugging
 		await driver.wait([timeout]);
-		
+
 		// Wait for specific elements to render
 		await driver.waitForElementVisible(cssSelector, [timeout]);
 		await driver.waitForElementWithContentsVisible(contents, [cssSelector], [timeout]);
-		
+
 		// Wait for url to match
 		await driver.waitForLocation(location);
 
@@ -270,9 +270,9 @@ After you run your test, look in your test folder, you should see a new folder c
 1. Set a default host
 
 	Create a `config.json`
-	
+
 		{ "defaultHost": "www.google.com" }
-		
+
 2. Navigate to google
 
 3. Search for something
@@ -297,7 +297,7 @@ Inside `commands.js`, instead of calling `await driver.func()` use `await this.f
 		async anotherCustomFunction() {
 		},
 	}
-	
+
 In `example.js`
 
 	describeS('Test google', function () {
@@ -306,7 +306,7 @@ In `example.js`
     		// more testing code
     	});
  	 });
- 	 
+
 ## CACCL Course Admin Tools
 
 Shared `course-admin-tools/test/selenium` folder?
