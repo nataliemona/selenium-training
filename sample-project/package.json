@@ -12,6 +12,6 @@
 	"dependencies": {},
 	"devDependencies": {
 		"dce-selenium": "^1.0.47",
-		"mocha": "^6.2.2"
+		"mocha": "^10.2.0"
 	}
 }
